@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project5</title>
+    <script src="https://kit.fontawesome.com/d95722d616.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            box-sizing: border-box;
+            color: white;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            background: url(danny01.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1 {
+            text-align: center;
+            padding-top: 30px;
+            font-size: 60px;
+        }
+        span {
+            color: yellow;
+        }
+        .nav{
+            float: right;
+            text-align: center;
+            margin-top: 108px;
+            margin-right: 5px;
+        }
+        ul{
+            list-style: none;
+            margin-right: 15px;
+            list-style: none;
+            margin-top: 10px; 
+         }
+        ul li{
+            margin-top: 40px;
+            margin-bottom: 20px; 
+        }
+        ul li a{
+            width: 40px;
+            height: 40px;
+            padding: 10px 10px 10px 10px;
+            font-size: 25px;
+            background: rgba(100, 40, 90, 0.3);
+            border-radius: 30px;
+            cursor: pointer;
+            transition-property: background, font-size,;
+            transition-duration: 1s;
+            transition-delay: 0px;
+            transition-timing-function: ease-in-out;
+            box-sizing: border-box;
+        }
+        
+        ul li a:hover{
+            background-color: #ffd60a;;
+            font-size: 30px;
+        }
+        .icon1 {
+            float: left;
+            margin-top: 108px;
+            margin-left: -10px;
+        }
+        .icon1 i {
+            width: 30px;
+            height: 30px;
+            border: 1px solid white;
+            background: white;
+            padding: 5px;
+            margin-left: 1px;
+            margin-top: 58px;
+         }
+         .blog {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            margin-top: 60px;
+            margin-left: 150px;
+         }
+         .content {
+            flex: 0 0 200px;
+            margin: 10px;
+            border: 1px solid rgba(100, 40, 90, 0.3);
+            box-shadow: 3px 2px 4px 1px rgba(51, 20, 20, 0.4);
+         }
+         h2 a{
+            text-decoration: none;
+            cursor:grab;
+         }
+         .content i {
+            max-width: 100%;
+         }
+         .content .text {
+            padding: 5px 10px 5px 14px;
+         }
+         h2 {
+            padding-left: 15px;
+         }
+         h2 a:hover {
+            color: gold;
+         }
+         img {
+            border-bottom: 5px solid rgba(100, 40, 90, 0.3);
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MY <span>BLOG</span></h1>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html" target="_self"><i class="fa fa-home" aria-hidden="true" style="color: #fff;"></i></a></li>
+                <li><a href="project2.html" target="_self" rel="noopener noreferrer"><i class="fa fa-user" aria-hidden="true" style="color: #fff;"></i></a></li>
+                <li><a href="project3.html" target="_self" rel="noopener noreferrer"><i class="fa fa-briefcase" aria-hidden="true" style="color: #fff;"></i>
+                </a></li>
+                <li><a href="project4.html" target="_self" rel="noopener noreferrer"><i class="fa fa-envelope-open" aria-hidden="true"></i></a></li>
+                <li><a href="project5.html" target="_self" rel="noopener noreferrer"><i class="fa fa-comments" aria-hidden="true" style="color: #fff;"></i></a></li>
+            </ul>
+            </div>
+         <div class="icon1"><i class="fa fa-cog" aria-hidden="true" style="color: #1a2c4d;"></i></div>
+
+         <main class="blog">
+            <article class="content">
+                <img src="computers.jpg" alt="" style="height: 180px; width: 320px;">
+                <section>
+                    <h2><a href="#">How To Own Your Audience By Creating On Email List</a></h2>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum est cumque quod reiciendis qui aspernatur voluptates debitis facere? Quod, modi.</p>
+                </section>
+            </article>
+            <article class="content">
+                <img src="guru.jpg" alt="" style="height: 180px;">
+                <section>
+                    <h2><a href="#">Top 10 Toolkits For Deep Learning In 2023</a></h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet asperiores ab autem nam similique error culpa perspiciatis ipsum molestiae quod. </p>
+                </section>
+            </article>
+            <article class="content">
+                <img src="code.jpg" alt="" style="height: 180px;" width="300px">
+                <section>
+                    <h2><a href="#">Everything You Need To Know About Web Accessibility</a></h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem molestiae amet at. Amet expedita, explicabo dicta odio itaque tempore.</p>
+                </section>
+            </article>
+         </main>
+    </div>
+</body>
+</html>
